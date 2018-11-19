@@ -1,5 +1,7 @@
 package org.launchcode.models;
 
+import org.launchcode.models.data.JobData;
+
 /**
  * Created by LaunchCode
  */

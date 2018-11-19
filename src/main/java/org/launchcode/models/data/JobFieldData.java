@@ -31,7 +31,7 @@ public class JobFieldData<T extends JobField> {
 
     T findByValue(String value) {
         for (T item : allFields) {
-            if (item.contains(value))
+            if (item.contains(value.toLowerCase()))
                 return item;
         }
 
